@@ -1,0 +1,25 @@
+{
+  "scheme": "acme",
+  "userInterfaceStyle": "automatic",
+  "orientation": "default",
+  "web": {
+    "output": "static"
+  },
+  "plugins": [
+    [
+      "expo-router",
+      {
+        "origin": "https://n"
+      }
+    ],
+    [
+      "expo-image-picker",
+      {
+        "photosPermission": "L'application a besoin d'accéder à vos photos pour identifier les plantes.",
+        "cameraPermission": "L'application a besoin d'accéder à votre appareil photo pour prendre des photos de plantes."
+      }
+    ]
+  ],
+  "name": "greemind",
+  "slug": "greemind"
+}
